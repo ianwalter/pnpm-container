@@ -12,14 +12,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install
-        uses: ./.github/actions/pnpm-container
+        uses: ./
         with:
           command: pnpm i
       - name: Lint
-        uses: ./.github/actions/pnpm-container
+        uses: ./
         with:
           command: pnpm run lint
       - name: Test
-        uses: ./.github/actions/pnpm-container
+        uses: ./
         with:
           command: pnpm t
