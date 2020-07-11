@@ -14,12 +14,12 @@ jobs:
       - name: Install
         uses: ./
         with:
-          command: pnpm i
+          args: pnpm i
       - name: Lint
         uses: ./
         with:
-          command: pnpm run lint
+          args: pnpm run lint
       - name: Test
         uses: ./
         with:
-          command: pnpm t
+          args: pnpm t
