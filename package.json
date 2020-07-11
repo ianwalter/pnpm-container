@@ -21,6 +21,9 @@
     "url": "https://github.com/ianwalter/pnpm-container/issues"
   },
   "homepage": "https://github.com/ianwalter/pnpm-container#readme",
+  "dependencies": {
+    "pnpm": "^5.3.0"
+  },
   "devDependencies": {
     "@ianwalter/bff": "^9.10.0",
     "@ianwalter/eslint-config": "^5.3.0",

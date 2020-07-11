@@ -1,3 +1,5 @@
+dependencies:
+  pnpm: 5.3.0
 devDependencies:
   '@ianwalter/bff': 9.10.0
   '@ianwalter/eslint-config': 5.3.0
@@ -2671,6 +2673,13 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-9tXREJ4Z1j7fQo4L1X4Sd3YVM0s=
+  /pnpm/5.3.0:
+    dev: false
+    engines:
+      node: '>=10.13'
+    hasBin: true
+    resolution:
+      integrity: sha512-CaCVRg9FkBs1n8S3LtvVbRaoJb66gnmimsRq4syuqRrsjjwN4hC1CZonL7hzr8bY/c+xkNxi58qwMwRygBpO8g==
   /posix-character-classes/0.1.1:
     dev: true
     engines:
@@ -3377,3 +3386,4 @@ specifiers:
   '@ianwalter/bff': ^9.10.0
   '@ianwalter/eslint-config': ^5.3.0
   changesets: ^1.0.2
+  pnpm: ^5.3.0
