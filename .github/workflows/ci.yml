@@ -1,0 +1,19 @@
+name: CI
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: ../../Dockerfile
+    timeout-minutes: 5
+    steps:
+      - name: Install
+        run: pnpm i
+      - name: Lint
+        run: pnpm run lint
+      - name: Test
+        run: pnpm t

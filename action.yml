@@ -1,0 +1,9 @@
+name: pnpm Container
+description: A Node.js Docker Image / GitHub Action (container) with pnpm
+author: Ian Walter
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: package
+  color: orange
