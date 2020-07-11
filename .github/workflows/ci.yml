@@ -7,15 +7,16 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
-      image: ../../Dockerfile
     timeout-minutes: 5
     steps:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install
+        uses: ./.github/actions/pnpm-container
         run: pnpm i
       - name: Lint
+        uses: ./.github/actions/pnpm-container
         run: pnpm run lint
       - name: Test
+        uses: ./.github/actions/pnpm-container
         run: pnpm t
