@@ -14,7 +14,7 @@ jobs:
       - name: Install
         uses: ./
         with:
-          args: pnpm i
+          args: pnpm i --dev
       - name: Lint
         uses: ./
         with:
