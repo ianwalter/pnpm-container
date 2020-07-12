@@ -2,7 +2,7 @@
   "private": true,
   "name": "pnpm-container",
   "version": "0.0.0",
-  "description": "A Node.js Docker image / GitHub action with pnpm",
+  "description": "A Node.js Docker Image / GitHub Action with pnpm",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "lint": "eslint .",
