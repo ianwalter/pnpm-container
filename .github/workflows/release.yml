@@ -16,8 +16,9 @@ jobs:
           # This makes Actions fetch all Git history so that Changesets can
           # generate changelogs with the correct commits.
           fetch-depth: 0
+      - name: Install
+        run: pnpm i
       - name: Changesets
-        id: changesets
         uses: changesets/action@master
         with:
           publish: pnpx changeset publish
