@@ -4,6 +4,7 @@ on:
     branches:
       - master
   pull_request:
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,7 +19,7 @@ jobs:
       - name: Lint
         uses: ./
         with:
-          args: pnpm run lint
+          args: pnpm lint
       - name: Test
         uses: ./
         with:
