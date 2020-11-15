@@ -1,5 +1,11 @@
 # pnpm-container
 
+## 1.3.0
+
+### Minor Changes
+
+- 274def7: Update node Docker tag to v14.15
+
 ## 1.2.0
 
 ### Minor Changes
