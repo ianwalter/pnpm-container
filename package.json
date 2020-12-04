@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/ianwalter/pnpm-container#readme",
   "dependencies": {
-    "pnpm": "^5.11.1"
+    "pnpm": "^5.13.5"
   },
   "devDependencies": {
     "@changesets/cli": "^2.12.0",
