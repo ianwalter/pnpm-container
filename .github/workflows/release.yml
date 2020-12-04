@@ -24,4 +24,3 @@ jobs:
           publish: pnpx changeset publish
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
