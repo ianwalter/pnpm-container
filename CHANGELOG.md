@@ -1,5 +1,11 @@
 # pnpm-container
 
+## 1.4.0
+
+### Minor Changes
+
+- e6778f9: Update dependency pnpm to ^5.13.5
+
 ## 1.3.0
 
 ### Minor Changes
