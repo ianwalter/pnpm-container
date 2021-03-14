@@ -1,5 +1,5 @@
 dependencies:
-  pnpm: 5.13.5
+  pnpm: 5.18.7
 devDependencies:
   '@changesets/cli': 2.14.1
   '@ianwalter/bff': 9.13.0
@@ -3662,13 +3662,13 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==
-  /pnpm/5.13.5:
+  /pnpm/5.18.7:
     dev: false
     engines:
       node: '>=10.16'
     hasBin: true
     resolution:
-      integrity: sha512-EJO8eYZyNpOvW+JhjBnLtxD2xcC6YlrzH8jxjETj8bevLATFa9vnGq614ada6o1XOIMq31JWtj1WyPJNogAzLA==
+      integrity: sha512-7LSLQSeskkDtzAuq8DxEcVNWlqFd0ppWPT6Z4+TiS8SjxGCRSpnCeDVzwliAPd0hedl6HuUiSnDPgmg/kHUVXw==
   /posix-character-classes/0.1.1:
     dev: true
     engines:
@@ -4750,4 +4750,4 @@ specifiers:
   '@changesets/cli': ^2.14.1
   '@ianwalter/bff': ^9.13.0
   '@ianwalter/eslint-config': ^6.2.0
-  pnpm: ^5.13.5
+  pnpm: ^5.18.7
